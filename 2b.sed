@@ -80,6 +80,8 @@ s/_//g
 
 # multiply
 s/$/+/
+
+#format: l|kkkkkkkk|jjjjj|iiiiiii*aaaaaaaa|aaaaaa|aaaa||aaaaaaa|aaaaaaaa+
 :mult
 :rmOnes
 #s/[a-z]\*\([^\+]\)\+/X/

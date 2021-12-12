@@ -50,6 +50,7 @@ s/\n//g
 s/\(^\| \* \)/\1|/g
 
 # first: add, then multiply (which needs another add at the end)
+# format: |ii||iiii|iiiiiiii+i||ii|iiii+ii|iiiii|iiiiii+i|ii|iiiiiiii+iii|ii+i|iiiiii+iiiiiiii+iiii+ * |iiiii|i|ii+iiiiii|iiii+ii+i+
 badd
 
 :mult
@@ -97,6 +98,7 @@ s/X//g;s/+Y|*//g
 
 
 # multiply if we have a '*'
+# format: |iii|cciii|i|iiiiii+ * |iiiii|iiiiiii|iiiiiiiii+
 /\*/ bmult
 
 # remove trailing +
